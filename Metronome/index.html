@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE-edge">
+	<title>My Metronome</title>
+	<link rel="stylesheet" type="text/css" href="./style/stylesheet.css">
+</head>
+<body>
+	<section class="container">
+		<div class="metronome">
+			<div class="bpm-display">
+				<span class="tempo">163</span>
+				<span class="bpm">BPM</span>
+			</div>
+			<div class="tempo-text">Easy Mode</div>
+			<div class="tempo-settings">
+				<div class="adjust-tempo-btn decrease-tempo">-</div>
+				<input type="range" min="40" max="280" step="1" class="slider">
+				<div class="adjust-tempo-btn increase-tempo">+</div>
+			</div>
+			<div class="start-stop">START</div>
+			<div class="measures">
+				<div class="stepper-beats decrease-beats">-</div>
+				<div class="measures-count">
+					<span class="tempo-beats">4</span>
+					<span class="beats">Beats</span>
+				</div>
+				<div class="stepper-beats increase-beats">+</div>
+			</div>
+		</div>
+	</section>
+	<script type="text/javascript" src="./js/app.js" ></script> 
+</body>
+</html>
